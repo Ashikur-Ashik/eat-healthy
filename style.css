@@ -96,7 +96,7 @@ h1 {
 
 
 .recipie_title_left ,.recipie_title_right{
-    width: 40%;
+    width: 38%;
     margin-left: 5%;
     padding-left: 4%;
     box-shadow: 10px 10px 40px grey;
@@ -118,5 +118,25 @@ h1 {
     height: 300px;
     width: 450px;
     padding-top: 4%;
+}
+
+.subcriber{
+    display: flex;
+    box-shadow: 10px 10px 20px gray;
+    margin: 5% 7%;
+}
+
+.record{
+    padding: 2% 10%;
+}
+
+.last_section{
+    background-color: rgba(11, 13, 23, 100%);
+    text-align: center;
+    color: #828282;
+    padding: 2% 10% 3% 10%;
+}
+.last_section p{
+    font-size: 12px;
 }
 
