@@ -1,3 +1,122 @@
-*{
-    font-family: 'Montserrat', sans-serif;
+* {
+  font-family: "Montserrat", sans-serif;
 }
+.orange_color {
+  color: rgba(251, 162, 79, 100%);
+}
+h1 {
+  font-size: 45px;
+  color: #575757;
+  font-weight: 700;
+}
+.upper {
+    color: #828282;
+    padding-top: 2%;
+    padding-bottom: 12%;
+    line-height: 25px;
+}
+
+.divided-part {
+  display: flex;
+}
+.topper_left {
+  width: 40%;
+  padding-top: 15%;
+  padding-left: 3%;
+}
+.topper_right{
+    width: 60%;
+}
+.topper_right img{
+   /* height: 37%; */
+   /* height: 300px; */
+   width: 95%;
+   padding-top: 9%;
+
+} 
+.btn{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(rgba(251,167,79,100%),tomato);
+    padding: 10px 30px;
+    border-radius: 17px;
+}
+
+
+.about_section{
+    display: flex;
+    background-image: url(images/7.png);
+    background-size: 100%;
+    margin-top: 6%;
+}
+.about_section img{
+    height: 350px;
+    width: 300px;
+}
+.about_left{
+    width: 50%;
+    padding-left: 20%;
+    padding-top: 5%;
+}
+.about_right{
+    width: 58%;
+    padding-left: 6%;
+    padding-right: 12%;
+    padding-top: 7%;
+    text-align: justify;
+}
+
+.about_right h2{
+    font-weight: 500;
+    color: #828282;
+}
+.about_right p{
+    line-height: 25px;
+    font-size: 17px;
+    color: #828282;
+}
+
+.recipie_title{
+    display: flex;
+    margin: 0 18px;
+    padding-top: 5%;
+}
+
+.my_recipie h2{
+    text-align: center;
+    padding-top: 8%;
+    color: #575757;
+    padding-bottom: 4%;
+}
+.my_recipie p{
+    text-align: center;
+    color: #828282;
+    line-height: 17px;
+}
+
+
+.recipie_title_left ,.recipie_title_right{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 4%;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 20px;
+}
+/* .recipie_title_right{
+    width:40%;
+    margin-left: 5%;
+    padding-left: 4%;
+    box-shadow: 10px 10px 30px grey;
+    border-radius: 20px;
+} */
+.recipie_title_left p,.recipie_title_right p{
+    text-align: left;
+    line-height: 17px;
+}
+
+.recipie_title_left img, .recipie_title_right img{
+    height: 300px;
+    width: 450px;
+    padding-top: 4%;
+}
+
